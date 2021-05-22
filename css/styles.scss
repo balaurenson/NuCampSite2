@@ -1,3 +1,4 @@
+$color-teal: #17A2B8;
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
@@ -63,7 +64,6 @@ header  {
 
 .carousel {
     border: 1px solid $color-secondary;
-
 }
 
 #carouselButton {
@@ -71,5 +71,19 @@ header  {
     right: 0;
     bottom: 0;
     z-index: 100;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
 }
 
